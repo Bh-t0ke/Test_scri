@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Test.Test_script.Testng">
+        <methods>
+          <include name="Basic_Details_Form_Business_Name"/>
+          <include name="Financialdocument"/>
+          <include name="Basic_Details_Form_Resident_Office"/>
+          <include name="disbursal"/>
+          <include name="apply_loan_click"/>
+          <include name="Basic_Details_Form_Sub_Sector"/>
+          <include name="Co_applicant"/>
+          <include name="verify"/>
+          <include name="insurancedetails"/>
+          <include name="close"/>
+          <include name="Basic_Details_Form_Sector"/>
+          <include name="lunch"/>
+          <include name="Unsecured_Business_Loan_click"/>
+          <include name="Business_Vintage"/>
+          <include name="Eligibility_Amount"/>
+          <include name="Basic_Details_Form_email"/>
+          <include name="Basic_Details_Form_Upload_PAN"/>
+          <include name="Basic_Details_Form_Mobile_Number"/>
+          <include name="login"/>
+          <include name="bankupload"/>
+          <include name="Basic_Details_Form_Aadhaar_Upload"/>
+          <include name="applicant_OTP_Verification"/>
+          <include name="Business_Details"/>
+          <include name="Basic_Details_Form_Business_Constitution"/>
+        </methods>
+      </class> <!-- Test.Test_script.Testng -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
