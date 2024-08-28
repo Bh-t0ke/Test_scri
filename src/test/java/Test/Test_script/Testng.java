@@ -82,7 +82,7 @@ public class Testng {
 	public void Basic_Details_Form_Business_Constitution() throws InterruptedException, AWTException, IOException {
 		Thread.sleep(3000);
 		List<WebElement> values = driver.findElements(By.tagName("option"));
-		// Select Business Constitution
+		// Select Business Constitutionss
 		for (int i = 0; i < values.size(); i++) {
 			String dropdown_values = values.get(i).getText();
 			String Business_Constitution = common.readData(1, 1);
