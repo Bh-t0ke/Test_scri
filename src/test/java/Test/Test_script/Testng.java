@@ -95,7 +95,7 @@ public class Testng {
 //	
 	@Test(priority = 6, enabled = true)
 	public void Basic_Details_Form_Business_Name() throws InterruptedException, IOException {
-		// Business Name
+		// Business Namesss
 		String name = common.readData(0, 1);
 		driver.findElement(By.cssSelector("input#input-none-1")).sendKeys(name);
 	}
